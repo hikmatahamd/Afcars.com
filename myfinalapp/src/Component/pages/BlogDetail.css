@@ -1,0 +1,207 @@
+@media (min-width: 576px){
+.nav-wrapper {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 0;
+}}
+.nav-wrapper {
+    padding-top: 15px;
+}
+@media (min-width: 992px){
+.nav-wrapper .return-search {
+    margin: 10px 20px 0 10px;
+}}
+@media (min-width: 576px){
+.nav-wrapper .return-search {
+    margin: 0 20px 0 10px;
+    padding: 2px 10px 2px 5px;
+    text-align: left;
+}}
+.nav-wrapper .return-search {
+    display: block;
+    position: relative;
+    margin-left: 13px;
+    padding: 5px 10px 5px 5px;
+    border: 1px solid rgba(38,74,161,.18);
+    border-left: 0;
+    outline: none;
+    background-color: transparent;
+    color: #1374dd;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+@media (min-width: 576px){
+.nav-wrapper .return-search i {
+    margin-right: 7px;
+}}
+.nav-wrapper .return-search i {
+    margin-right: 7px;
+}
+@media (min-width: 992px){
+.col-lg-9 {
+    -webkit-box-flex: 0;
+    flex: 0 0 75%;
+    max-width: 75%;
+}}
+@media (min-width: 768px){
+.post-article h1 {
+    font-size: 28px;
+}}
+.post-article h1 {
+    margin-bottom: 15px;
+    font-family: OpenSans-Bold;
+    font-size: 24px;
+}
+.post-article .post-info {
+   
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* .post-article .post-info .news-label {
+    margin-right: 10px;
+} */
+.news-label.green {
+    background-color: #66b90c;
+}
+@media (min-width: 768px){
+.news-label {
+    padding: 7px 10px;
+    font-size: 12px;
+}}
+.news-label, .news-label:before {
+
+    transition: all .3s ease-in-out;
+    border-radius: 100px;
+}
+.news-label {
+    display: inline-block;
+    position: relative;
+    padding: 4px 6px;
+    color: #fff;
+    font-family: OpenSans-Bold;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 99;
+}
+.news-label span a {
+color: white;
+text-decoration: none;
+}
+@media (min-width: 768px){
+.post-article .post-image {
+    text-align: left;
+}}
+.post-article .post-image {
+    margin-bottom: 20px;
+}
+@media (min-width: 768px){
+.post-article .post-image img {
+    width: 100%;
+}}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 992px){
+.sticky-networks, .sticky-networks .networks-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}}
+
+@media (min-width: 992px){
+.sticky-networks {
+    
+    display: inline-flex;
+    position: static;
+    background: transparent;
+    box-shadow: none;
+}}
+.sticky-networks, .sticky-networks .info-wrapper {
+   
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.banner {
+    padding: 20px 0;
+    text-align: center;
+}
+.sticky-networks {
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    flex-direction: row-reverse; */
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px 15px;
+    /* background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.1); */
+    z-index: 99;
+}
+@media (min-width: 992px){
+.sticky-networks .info-wrapper {
+    margin-bottom: 5px;
+    padding: 0;
+    border-left: 0;
+    line-height: 2;
+}}
+.sticky-networks .info-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    /* padding-left: 10px;
+    border-left: 1px solid #979797;
+    line-height: 1;*/
+} 
+.sticky-networks, .sticky-networks .info-wrapper {
+
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+@media (min-width: 992px){
+.sticky-networks .info-wrapper span:first-child {
+    border-bottom: 1px solid #979797;
+}}
+@media (min-width: 992px){
+.sticky-networks, .sticky-networks .networks-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}}
+.sticky-networks .networks-wrapper {
+
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.sticky-networks .circle.facebook {
+    background-color: #4267b2;
+}
+.sticky-networks .circle {
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+}
+.sticky-networks .circle, .sticky-networks .networks-wrapper {
+   
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}

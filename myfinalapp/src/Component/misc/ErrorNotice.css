@@ -1,0 +1,19 @@
+.error-notice{
+    margin:1rem 0;
+    padding: 0.5rem;
+    
+    border:1px solid #e07c7c;
+    border-radius:8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8d6d6;
+    align-items: center;
+   
+
+}
+.error-notice button{
+    border: solid 1px #e07c7c;
+    border-radius: 50%;
+    background-color: #f38888;
+    color:#ffff;
+}

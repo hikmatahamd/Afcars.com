@@ -1,0 +1,248 @@
+@media (min-width: 992px){
+.sign-in {
+    min-height: 670px;
+    margin-bottom: 175px;
+}}
+@media (min-width: 992px){
+.forgot-password, .payment, .restore-password, .sign-in, .sign-up {
+    padding: 40px 30px;
+}}
+.forgot-password, .payment, .restore-password, .sign-in, .sign-up, .subscription {
+    max-width: 440px;
+    margin: 0 auto;
+    /* padding: 20px 30px; */
+}
+
+.forgot-password h1, .payment-form h1, .restore-password h1, .sign-in-form h1, .sign-up-form h1, .subscription-form h1 {
+    margin-bottom: 20px;
+     /* font-family: OpenSans-Semibold; */
+   font-size: 35px;
+    text-align: center;
+}
+.forgot-password h1 span, .payment-form h1 span, .restore-password h1 span, .sign-in-form h1 span, .sign-up-form h1 span, .subscription-form h1 span {
+    color: #545454;
+    font-family: OpenSans-Regular;
+}
+.tab-content>.active {
+    display: block;
+}
+.fade.show {
+    opacity: 1;
+}
+.fade {
+    
+    transition: opacity .15s linear;
+}
+.forgot-password form, .payment-form form, .restore-password form, .sign-in-form form, .sign-up-form form, .subscription-form form {
+    position: relative;
+}
+@media (min-width: 991px){
+.input-animate-wrapp {
+    margin-bottom: 25px;
+}}
+.input-animate-wrapp {
+    position: relative;
+    margin-bottom: 20px;
+}
+.intl-tel-input {
+    position: relative;
+}
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
+    right: auto;
+    left: 0;
+}
+.intl-tel-input .flag-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 1px;
+}
+.intl-tel-input.allow-dropdown .selected-flag, .intl-tel-input.separate-dial-code .selected-flag {
+    width: 46px;
+}
+.intl-tel-input .selected-flag {
+    z-index: 1;
+    position: relative;
+    width: 36px;
+    height: 100%;
+    padding: 0 0 0 8px;
+}
+.intl-tel-input .selected-flag .iti-flag {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.iti-flag.af {
+    height: 14px;
+    background-position: -66px 0;
+}
+.iti-flag {
+    width: 20px;
+    height: 15px;
+    box-shadow: 0 0 1px 0 #888;
+    /* background-image: url(/packs/_/assets/images/design/sprites/flags-ae33acae404631e997ef8d91dae08ccd.png);
+    background-image: url(../assets/background.jpg); */
+    background-image: url(../assets/flags.png);
+    background-repeat: no-repeat;
+    background-color: #dbdbdb;
+    /* background-position: 20px 0; */
+}
+.intl-tel-input .selected-flag .iti-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 6px;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 4px solid #555;
+}
+.input-animate-wrapp .country-list {
+    z-index: 99;
+}
+.intl-tel-input .country-list {
+    position: absolute;
+    z-index: 2;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 0 -1px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.2);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.hide {
+    display: none!important;
+}
+.intl-tel-input .country-list .country {
+    padding: 5px 10px;
+}
+.intl-tel-input .country-list .country-name, .intl-tel-input .country-list .flag-box {
+    margin-right: 6px;
+}
+.intl-tel-input .country-list .country-name, .intl-tel-input .country-list .dial-code, .intl-tel-input .country-list .flag-box {
+    vertical-align: middle;
+}
+.intl-tel-input .country-list .flag-box {
+    display: inline-block;
+    width: 20px;
+}
+.iti-flag.us {
+    height: 11px;
+    background-position: -5241px 0;
+}
+.intl-tel-input .country-list .country .dial-code {
+    color: #999;
+}
+.iti-flag.gb {
+    height: 10px;
+    background-position: -1775px 0;
+}
+.intl-tel-input .country-list .divider {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+@media (min-width: 992px){
+.forgot-password .divider, .payment-form .divider, .restore-password .divider, .sign-in-form .divider, .sign-up-form .divider {
+    margin: 32px 0;
+    
+    line-height: 0;
+    text-align: center;
+}}
+.forgot-password .divider, .payment-form .divider, .restore-password .divider, .sign-in-form .divider, .sign-up-form .divider, .subscription-form .divider {
+    margin: 20px 0;
+    /* border-bottom: 1px solid #eaeaea; */
+    line-height: 0;
+    text-align: center;
+}
+.intl-tel-input .country-list .country.highlight {
+    background-color: rgba(0,0,0,.05);
+}
+
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=tel], .intl-tel-input.separate-dial-code input[type=text] {
+    padding-right: 6px;
+    padding-left: 52px;
+    margin-left: 0;
+}
+.intl-tel-input input, .intl-tel-input input[type=tel], .intl-tel-input input[type=text] {
+    position: relative;
+    z-index: 0;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    /* padding-right: 36px; */
+    margin-right: 0;
+}
+.input-animate-wrapp input {
+    height: 47px;
+}
+.input-animate-wrapp i, .input-animate-wrapp img {
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    font-size: 19px;
+}
+@media (min-width: 992px){
+.sign-in-form .form-options {
+    font-size: 14px;
+}}
+.sign-in-form .form-options {
+
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 25px 0;
+    /* font-size: 13px; */
+}
+@media (min-width: 375px){
+.own-checkbox {
+    padding-left: 26px;
+}}
+@media (min-width: 320px){
+.own-checkbox {
+    padding-left: 20px;
+}}
+/* .own-checkbox {
+    position: relative;
+    padding-left: 26px;
+    text-align: left;
+} */
+/* .own-checkbox input[type=checkbox], .own-checkbox input[type=radio] {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    visibility: hidden;
+} */
+/* .own-checkbox label {
+    
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+} */
+.sign-in-form .form-options a {
+    color: #0074e6;
+}
+@media (min-width: 992px){
+.forgot-password .an-account, .payment .an-account, .restore-password .an-account, .sign-in .an-account, .sign-up .an-account {
+    margin-top: 40px;
+}}
+.an-account {
+    margin-top: 25px;
+    color: #545454;
+    font-size: 16px;
+    text-align: center;
+}
+.an-account span {
+    margin-right: 7px;
+}

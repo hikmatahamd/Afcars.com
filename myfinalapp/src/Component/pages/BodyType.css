@@ -1,0 +1,30 @@
+.type {
+    padding: 25px 0;
+}
+.tab-content>.active {
+    display: block;
+}
+.fade.show {
+    opacity: 1;
+}
+.fade {
+    
+    transition: opacity .15s linear;
+}
+
+
+.type .car-type {
+   
+    display: flex;
+
+    flex-direction: column;
+    
+    align-items: center;
+ 
+    justify-content: center;
+}
+
+.type a {
+    text-decoration:none;
+    color: #1374dd;
+}

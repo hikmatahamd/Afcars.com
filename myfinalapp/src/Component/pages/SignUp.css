@@ -1,0 +1,78 @@
+@media (min-width: 992px){
+.sign-up-partner {
+    min-height: 860px;
+}}
+.input-animate-wrapp .form-label {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    max-width: 280px;
+    /* -webkit-transition: font-size .15s ease-out,-webkit-transform .15s ease-out;
+    transition: font-size .15s ease-out,-webkit-transform .15s ease-out;
+    transition: transform .15s ease-out,font-size .15s ease-out; */
+    transition: transform .15s ease-out,font-size .15s ease-out,-webkit-transform .15s ease-out;
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 10;
+}
+@media (min-width: 576px){
+.sign-up-form .own-checkbox+.own-checkbox {
+    margin-bottom: 30px;
+}}
+.sign-up-form .own-checkbox+.own-checkbox {
+    margin: 10px 0 20px;
+}
+@media (min-width: 375px){
+.own-checkbox {
+    padding-left: 26px;
+}}
+@media (min-width: 320px){
+.own-checkbox {
+    padding-left: 20px;
+}}
+.own-checkbox {
+    position: relative;
+    /* padding-left: 26px; */
+    text-align: left;
+}
+.sign-up-form .own-checkbox .input {
+    display: inline-block;
+    position: static;
+}
+
+.own-terms a {
+    padding: 0 0 0 5px;
+    color: #0074e6;
+}
+@media (min-width: 992px){
+.forgot-password .divider, .payment-form .divider, .restore-password .divider, .sign-in-form .divider, .sign-up-form .divider {
+    margin: 32px 0;
+    border-bottom: 1px solid #eaeaea;
+    line-height: 0;
+    text-align: center;
+}}
+.forgot-password .divider, .payment-form .divider, .restore-password .divider, .sign-in-form .divider, .sign-up-form .divider, .subscription-form .divider {
+    /* margin: 20px 0; */
+    border-bottom: 1px solid #eaeaea;
+    line-height: 0;
+    text-align: center;
+}
+@media (min-width: 992px){
+.facebook-sign-in {
+    padding: 13px;
+    font-size: 16px;
+}}
+.facebook-sign-in {
+    display: block;
+    /* padding: 10px; */
+    
+    transition: all .2s linear;
+    border-radius: 3px;
+    background-color: #4267b2;
+    color: #fff;
+    /* font-family: OpenSans-Semibold; */
+    font-size: 16px;
+    text-align: center;
+}

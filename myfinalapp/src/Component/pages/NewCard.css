@@ -1,0 +1,271 @@
+
+/* @media (min-width: 768px){
+.container {
+    max-width: 720px;
+}
+}
+@media (min-width: 576px){
+.container {
+    max-width: 540px;
+}
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+/* .row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+/* body {
+    font-family: OpenSans-Regular,serif;
+    
+} */
+#toptxt{
+    /* float: left; */
+    /* position: relative; */
+    top:15px;
+    /* font-size:250%; */
+    /* font-family: OpenSans-Semibold; */
+}
+
+@media (min-width: 768px){
+.own-grid {
+    width: 33.3333%;
+}
+}
+@media (min-width: 992px){
+.own-grid {
+    width: 22%;
+}
+}
+/* @media (min-width: 540px){
+.own-grid {
+    padding: 0 15px;
+}
+}  */
+.own-grid {
+    position: relative;
+    /* width: 20%;
+    padding: 0 10px; */
+}
+
+.sm-ad-card {
+    display: block;
+    margin-bottom: 20px;
+    
+    transition: all .2s ease-in-out;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 7px 10px rgba(0,0,0,.08);
+    overflow: hidden;
+}
+
+.overlay-wrapper.overlay-wrapp-ads {
+    min-height: auto!important;
+}
+.overlay-wrapper {
+    position: relative;
+}
+@media (min-width: 768px){
+.overlay-wrapper {
+    min-height: 126px;
+}
+}
+@media (min-width: 576px){
+.overlay-wrapper {
+    min-height: 144px;
+}
+}
+@media (min-width: 414px){
+.overlay-wrapper {
+    min-height: 112px;
+}
+}
+@media (min-width: 375px){
+.overlay-wrapper {
+    min-height: 101px;
+}
+}
+.overlay-wrapper {
+    min-height: 85px;
+}
+.overlay-wrapper>img {
+    
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 0;
+    text-indent: -9999px;
+    z-index: 2;
+}
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.sm-ad-card .ad-description-car {
+    padding: 15px 10px 10px;
+}
+.sm-ad-card .ad-model {
+    font-size: 19px;
+}
+.sm-ad-card .ad-model {
+    display: inline-block;
+    height: 0;
+    min-height:38px;
+    margin-bottom: 15px;
+    font-family: OpenSans-Bold;
+    
+    font-weight: 900;
+    line-height: 1.1;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.sm-ad-card .wrapper {
+    
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.sm-ad-card .wrapper .price {
+
+    flex: 62% 0 0;
+    max-width: 62%;
+    min-height: 38px;
+    font-size: 10px;
+}
+.descr {
+    color: #949494;
+    font-family: OpenSans-Semibold;
+    font-size: 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.sm-ad-card .wrapper .ad-condition, .sm-ad-card .wrapper .descr {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.sm-ad-card .ad-price {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.sm-ad-card .ad-price {
+    color: #d3001d;
+    font-size: 20px;
+}
+.sm-ad-card .ad-price span {
+    font-family: OpenSans-Semibold;
+}
+.sm-ad-card .wrapper .price {
+    
+    flex: 62% 0 0;
+    max-width: 62%;
+    min-height: 38px;
+    font-size: 20px;
+}
+.sm-ad-card .ad-price span {
+    font-family: OpenSans-Semibold;
+}
+.sm-ad-card .wrapper .mileage {
+    display: inline-block;
+
+    flex: 38% 0 0;
+    max-width: 38%;
+    min-height: 38px;
+    font-family: OpenSans-Semibold;
+}
+
+@media (min-width: 540px){
+.sm-ad-card .ad-mileage {
+    font-size: 20px;
+}}
+.sm-ad-card .ad-mileage {
+    font-size: 20px;
+    font-weight: 400;
+}
+.sm-ad-card .wrapper .descr {
+    color: #949494;
+    font-family: OpenSans-Semibold;
+    font-size: 14px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.sm-ad-card .wrapper .ad-condition, .sm-ad-card .wrapper .descr {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.sm-ad-card .ad-city {
+    font-size: 14px;
+}
+.sm-ad-card .ad-city {
+    color: #949494;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.sm-ad-card .ad-city i {
+    margin-right: 7px;
+    color: #d3001d;
+    font-size: 16px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    
+    text-rendering: auto;
+  
+}
+@media (min-width: 320px){
+.image-counter-wrapper {
+    position: relative;
+}
+}
+@media (min-width: 992px){
+.image-counter {
+    bottom: 15px;
+    left: 8px;
+}
+}
+@media (min-width: 768px){
+.image-counter {
+    bottom: 15px;
+    left: 8px;
+}
+}
+@media (min-width: 375px){
+.image-counter {
+    right: unset;
+    bottom: 15px;
+    left: 10px;
+}
+}
+.image-counter {
+    position: absolute;
+    
+    padding: 0 5px 3px;
+    border-radius: 3px;
+    background-color: #4a6e2e;
+    color: #fff;
+    z-index: 9;
+}
+
+

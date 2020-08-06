@@ -1,0 +1,201 @@
+/* .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+   
+} */
+@media (min-width: 992px){
+.inner-new-ads.afghanistan {
+
+    background-image: url(../assets/sell_Background.png);
+    background-size: cover;
+}}
+@media (min-width: 992px){
+.inner-new-ads {
+    padding: 50px 0 105px;
+}}
+.inner-new-ads .title {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    z-index: 9;
+}
+.inner-new-ads {
+    
+    display: flex;
+    position: relative;
+ 
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0 -15px;
+    padding: 30px 0 40px;
+ background-color: #4a6e2e;
+}
+.inner-new-ads .title h1 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: OpenSans-Bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+@media (min-width: 992px){
+.inner-new-ads .title h1 {
+    font-size: 50px;
+}}
+.inner-new-ads .title h1 {
+    font-size: 30px;
+    line-height: 1;
+}
+.inner-new-ads .title p {
+    opacity: .6;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+@media (min-width: 992px){
+.inner-new-ads .title p {
+    font-size: 20px;
+}}
+.inner-new-ads .title p {
+    color: #aeada8;
+    font-size: 18px;
+}
+@media (min-width: 992px){
+.cover-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.7);
+}}
+.container-sell-car-banner {
+    margin: 30px 0;
+}
+.new-ad-tabs {
+    position: relative;
+    top: 0;
+    max-width: 730px;
+    margin: 0 auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,.1);
+}
+.new-ad-tabs .nav {
+    background-color: #f4f4f4;
+}
+
+@media (min-width: 992px){
+.new-ad-tabs .nav a img {
+    max-width: 100%;
+}}
+@media (min-width: 375px){
+.new-ad-tabs .nav a img {
+    margin-right: 15px;
+}}
+/* .new-ad-tabs .nav a img {
+    max-width: 15%;
+    margin-right: 5px;
+} */
+.new-ad-tabs .nav a.active+.nav-item {
+    border: none;
+}
+.new-ad-tabs .nav a:not(:first-child) {
+    border-left: 1px solid #dcdcdc;
+}
+@media (min-width: 992px){
+.new-ad-tabs .nav a {
+    padding: 25px 10px;
+    font-size: 20px;
+}}
+.new-ad-tabs .nav a {
+    
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1 0 0;
+    
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    /* padding: 10px; */
+    background-color: inherit;
+    color: #6c6c6c;
+    /* font-size: 12px; */
+}
+
+.new-ad-tabs .nav a.active {
+    border: none;
+    background-color: #fff;
+    color: #4a6e2e;
+}
+
+
+
+.form-post-an-ad {
+    padding: 30px;
+}
+.new-ad-tabs .new-ad-container {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.form-post-an-ad h3 {
+    font-family: OpenSans-Bold;
+    /* font-size: 24px; */
+    text-align: center;
+}
+.form-post-an-ad .payment {
+    padding: 30px 0 0;
+}
+.payment {
+    max-width: 500px;
+}
+.form-post-an-ad .payment .payment-checkbox-wrapper {
+    margin-bottom: 20px;
+}
+.payment-checkbox-wrapper {
+    position: relative;
+    /* margin-bottom: 15px; */
+    border-radius: 3px;
+}
+.form-post-an-ad .payment .payment-checkbox-wrapper a img {
+    margin-right: 20px;
+}
+@media (min-width: 992px){
+.form-post-an-ad .payment .payment-checkbox-wrapper a span {
+    font-size: 20px;
+}}
+.form-post-an-ad .payment .payment-checkbox-wrapper a span {
+    color: #161616;
+    font-family: OpenSans-Semibold;
+    font-size: 16px;
+    margin-right: 250px;
+}
+.payment-checkbox-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+/* @media (min-width: 992px){
+.payment {
+    padding: 40px 30px;
+}} */
+@media (min-width: 992px){
+.form-post-an-ad .payment .payment-checkbox-wrapper a {
+    padding: 12px 40px;
+}}
+.form-post-an-ad .payment .payment-checkbox-wrapper a {
+   
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 12px 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+/* a, a:focus, a:hover {
+    color: #000;
+    text-decoration: none;
+} */

@@ -1,0 +1,102 @@
+
+ .main-search-form {
+    margin-left: 0;
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+    padding: 20px 30px;
+    animation: fadeIn ease-in;
+    list-style-type: none;
+}
+.main-search-form__item.main-search-form__item-newline {
+    clear: left;
+    padding-left: 0;
+}
+.main-search-form__item {
+    width: 33.33%;
+    margin-top: 15px !important;
+    float: left;
+    position: relative;
+    /* padding-left: 15px; */
+}
+.main-search-form__item__inner {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+
+input, select, textarea {
+
+    border-radius: 0;
+}
+.select-box {
+    position: inherit;
+    padding: 0;
+    width: 100%;
+}
+.select-display {
+    
+    min-height: 40px;
+    background-color: #fff;
+    font-size: 12px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.select-display .label {
+    position: relative;
+    float:left;
+    display: block;
+    margin: 0 10px 0 15px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #262626;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+}
+.select-display .text {
+    position: relative;
+    display: block;
+    margin-right: 25px;
+    white-space: nowrap;
+    font-size: 16px;
+    top: 9px;
+    color: #939598;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.select-menu {
+    z-index: 10000011;
+    background: #fff;
+    overflow: auto;
+    border: solid 1px #7096bd;
+}
+
+.main-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.select-menu .items-wrapper .main-list li {
+    padding: 1px 6px 0;
+    display: block;
+    overflow: hidden;
+}
+.main-list li a {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    padding: 3px;
+    position: relative;
+    white-space: nowrap;
+    min-width: 131px;
+    text-decoration: none !important;
+}
